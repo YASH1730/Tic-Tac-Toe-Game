@@ -1,0 +1,34 @@
+*{ 
+    margin: 0% ;
+    padding: 0% ;
+    box-sizing: border-box !important;
+}
+
+.container{
+    display: flex;
+    padding: 5%;
+    gap: 50px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#sheet{
+    position: relative;
+}
+.cover::before{
+    content: "";
+    background-color: rgba(104, 201, 254, 0.279);
+    position: absolute;
+    height: 100%; 
+    width: 100%;   
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height : 50px;
+    font-size:30px;
+    width: 50px;
+    border: 0.5px solid black;
+    
+}
